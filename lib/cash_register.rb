@@ -8,7 +8,7 @@ class CashRegister
   def initialize(discount = 0)
     @total = 0
     @discount = discount
-
+    
     #def self.discount
     #  discount = 20
     #end
@@ -30,12 +30,11 @@ class CashRegister
     end
   end
 
-  def items
+  def items(add_item)
     new_register = []
-    binding.pry
-    self.add_item
-    new_register
-
+    add_item.collect do |title|
+      
+    end
   end
 
 end
