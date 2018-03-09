@@ -31,9 +31,7 @@ class CashRegister
   end
 
   def items
-    new_register = []
-    new_register << self
-    new_register
+    
 
   end
 
