@@ -31,8 +31,10 @@ class CashRegister
   end
 
   def items
-
-
+    new_register = []
+    self.add_item
+    new_register
+    
   end
 
 end
