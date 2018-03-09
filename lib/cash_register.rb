@@ -42,4 +42,8 @@ class CashRegister
   #     new_register
   # end
 
+  def void_last_transaction
+    
+  end
+
 end
