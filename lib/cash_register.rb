@@ -30,11 +30,11 @@ class CashRegister
     end
   end
 
-  def items(add_item)
-    new_register = []
-    add_item.collect do |title|
-      end
-      new_register
-  end
+  #def items(add_item)
+  #  new_register = []
+  #  add_item.collect do |title|
+  #     end
+  #     new_register
+  # end
 
 end
