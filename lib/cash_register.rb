@@ -34,9 +34,9 @@ class CashRegister
     new_register = []
 
     add_item.collect do |title|
-      end
       binding.pry
-    new_register
+      end
+      new_register
   end
 
 end
