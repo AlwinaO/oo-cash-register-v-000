@@ -34,7 +34,7 @@ class CashRegister
     new_register = []
     self.add_item
     new_register
-    
+
   end
 
 end
