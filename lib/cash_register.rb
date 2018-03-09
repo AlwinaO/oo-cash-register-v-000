@@ -32,6 +32,7 @@ class CashRegister
 
   def items
     new_register = []
+    binding.pry
     self.add_item
     new_register
 
