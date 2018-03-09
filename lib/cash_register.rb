@@ -32,9 +32,7 @@ class CashRegister
 
   def items(add_item)
     new_register = []
-
     add_item.collect do |title|
-      binding.pry
       end
       new_register
   end
